@@ -1,1 +1,12 @@
- 
+@media only screen and (max-width : 1280px) {
+  .section-hero {
+    background-position: right 3px center,center;
+  }
+}
+
+@media only screen and (max-width : 1240px) {
+  .section-hero {
+    background-size: 311px 342px, cover  ;
+    background-position: right 32px bottom 215px,center;
+  }
+}
