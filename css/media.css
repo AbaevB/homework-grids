@@ -29,6 +29,26 @@
     height: 556px;
   }
   .courses-card__top  {
-    height: 330px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width : 960px)  {
+  .header__logo {
+    display: block;
+    margin-bottom: 31px;
+    text-align: center;
+  }
+  .section-hero {
+    background-image: radial-gradient(49% 49% at 67.78% 84.57%, #555681 0%, #2E2B44 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .section-courses__item {
+    height: 653px;
+  }
+  .courses-card__link {
+    width: 180px;
   }
 }
