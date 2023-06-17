@@ -56,6 +56,10 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .btn-reset {
   border: none;
   padding: 0;
@@ -77,6 +81,29 @@ h6 {
 .flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.button-link {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  color: var(--color-white);
+  background-color: var(--brand-color);
+  font-weight: 700;
+}
+
+.section__title {
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.card-title {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.descr {
+  font-size: 16px;
 }
 
 /*--------------------------HEADER--------------------------*/
@@ -102,23 +129,7 @@ h6 {
   line-height: 21px;
 }
 
-.button-link {
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  color: var(--color-white);
-  background-color: var(--brand-color);
-  font-weight: 700;
-}
 
-.section__title {
-  font-size: 40px;
-  line-height: 100%;
-}
-
-.descr {
-  font-size: 16px;
-}
 
 /*--------------------------HERO--------------------------*/
 
@@ -134,7 +145,7 @@ h6 {
 }
 
 .section-hero__title {
-  margin-bottom: 10px;
+  margin-bottom: 28px;
   font-size: 60px;
   font-weight: 700;
   line-height: 100%;
@@ -168,7 +179,7 @@ h6 {
 /*--------------------------ABOUT--------------------------*/
 .section-about {
   padding-top: 80px;
-  padding-bottom: 96px;
+  padding-bottom: 79px;
 }
 
 .section-about__bg {
@@ -224,4 +235,35 @@ background-image: url("../img/fingers.svg");
   font-size: 16px;
   line-height: 120%;
   color: var(--color-primary);
+}
+
+/*--------------------------TEACHERS--------------------------*/
+
+.section-teachers {
+  padding-top: 74px;
+  padding-bottom: 73px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.section-teachers__title  {
+  margin-bottom: 24px;
+}
+
+.teacher-card__top  {
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.teacher-card__body {
+  padding-top: 27px;
+}
+
+.teacher-card__title  {
+  margin-bottom: 7px;
+}
+
+.teacher-card__descr  {
+  color: var(--color-third);
+  line-height: 150%;
 }
