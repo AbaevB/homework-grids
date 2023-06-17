@@ -9,4 +9,26 @@
     background-size: 311px 342px, cover  ;
     background-position: right 32px bottom 215px,center;
   }
+  .section-hero__title  {
+    font-size: 50px;
+
+  }
+  .section-about__element {
+    height: 163px;
+    padding-top: 95px;
+    padding-right: 0;
+    padding-left: 0;
+    background-position: top left;
+  }
+
+  .section-teachers__item {
+    margin-bottom: 30px;
+  }
+
+  .section-courses__item {
+    height: 556px;
+  }
+  .courses-card__top  {
+    height: 330px;
+  }
 }
